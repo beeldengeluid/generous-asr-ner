@@ -31,7 +31,9 @@
 export default {
   name: "VideoEntities",
   data: function() {
-    return {};
+    return {
+      currentTime: 0
+    };
   },
   computed: {
     concepts: function() {
@@ -70,9 +72,6 @@ export default {
     nerSequences: {
       type: Array
     },
-    currentTime: {
-      type: Number
-    }
   },
   methods: {
     setCurrentTime(tc) {
