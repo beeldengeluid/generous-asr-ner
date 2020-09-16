@@ -1,8 +1,6 @@
 <template>
   <div id="app" class="ma3">
     <h1>Generously Interfacing Named Entities Recognised from Video</h1>
-    <p>Philo van Kemenade, October 2019</p>
-
     <p class="f4">
       Explore video content below by either:
       <ul>
