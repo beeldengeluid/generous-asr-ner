@@ -59,16 +59,4 @@ export default {
 .font-mono {
   font-family: "Source Code Pro", monospace;
 }
-
-.entity {
-  display: inline-block;
-  margin: 0.1rem !important;
-  padding: 0.1rem;
-  font-size: 75%;
-  cursor: pointer;
-}
-.entity.concept {
-  background-color: var(--entity-concept-bg-color);
-  color: var(--entity-concept-text-color);
-}
 </style>

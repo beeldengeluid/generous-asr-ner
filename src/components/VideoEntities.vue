@@ -82,6 +82,17 @@ export default {
 </script>
 
 <style scoped>
+.entity {
+  display: inline-block;
+  margin: 0.1rem !important;
+  padding: 0.1rem;
+  font-size: 75%;
+  cursor: pointer;
+}
+.entity.concept {
+  background-color: var(--entity-concept-bg-color);
+  color: var(--entity-concept-text-color);
+}
 .entity:hover {
   background-color: var(--highlight-bg-color);
 }
